@@ -1,0 +1,458 @@
+.resume-box {
+  background-color: rgb(19, 37, 75);
+}
+.resume-heading {
+  display: flex;
+  background-color: rgb(19, 37, 75);
+  justify-content: center;
+}
+.resume-head {
+  width: 40%;
+  border-radius: 5%;
+  background-color: rgb(107, 98, 98);
+  height: auto;
+  box-shadow: 0px 0px 2px 2px gray;
+
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  left: 50vh;
+  z-index: 1;
+}
+.resume-head > img {
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+}
+#first {
+  font-size: 5vh;
+  font-weight: 800;
+  color: #000;
+}
+#second {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.link-logo {
+  display: flex;
+  margin-bottom: 10px;
+}
+.commonCss{
+ 
+  color:white;
+   background-color: rgb(131, 50, 12);
+ padding: 5px;
+  font-weight: 600;
+  display:flex;
+  justify-content:center;
+}
+.linkedin {
+  margin-right: 30px;
+  width: 7vh;
+  height: 7vh;
+}
+.email {
+  width: 6vh;
+  height: 6vh;
+}
+
+.downld-rsm-btn {
+  background-color: rgb(19, 37, 75);
+  margin-top: 10px;
+  width: auto;
+  height: 7vh;
+  color: rgb(53, 228, 53);
+  border: 1px solid rgb(74, 206, 74);
+  transition: transform 0.2s;
+}
+.downld-rsm-btn:hover {
+  color: white;
+  background-color: green;
+  -ms-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.backgroundcolor {
+  background-color: rgb(3, 58, 59);
+  margin-top: 15vh;
+  width: 100%;
+  height: 35vh;
+
+  position: relative;
+
+  right: 15vh;
+}
+.resume-details-about{
+    display: none;
+    width: 70vh;
+    margin-top: 10px;
+    height: 30vh;
+    color: white;
+}
+.resume-details-about>span{
+    display: none;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: serif;
+    background-color: rgb(131, 50, 12);
+    
+}
+.resume-about {
+  width: 70vh;
+  margin-top: 10px;
+  height: 30vh;
+  position: relative;
+  right: 30%;
+  top: 15vh;
+  color: white;
+   
+}
+.resume-about > span {
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: serif;
+  background-color: rgb(131, 50, 12);
+}
+.resume-details {
+  display: flex;
+  margin: 3%;
+}
+.resume-info {
+  display: flex;
+  margin-top: 4%;
+}
+.resume-info-head {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.resume-info-head > span {
+  color: black;
+  font-style: bold;
+
+  margin: 5px;
+  font-weight: 900;
+}
+.resume-info-details {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.resume-info-details > span {
+  color: wheat;
+  margin: 5px;
+}
+ 
+#head-personal {
+  background-color: rgb(131, 50, 12);
+  color: white;
+
+  margin: 20px;
+  font-size: x-large;
+}
+.resume-language {
+  margin-left: 15%;
+}
+#lang {
+  display: flex;
+}
+#green-box {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-color: green;
+}
+#green-box-empty {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid green;
+}
+.resume-education-box {
+  margin: 3.8%;
+}
+.eduactionCerti {
+  display: flex;
+}
+.education {
+  width: auto;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   
+}
+#eduacted {
+  color: white;
+  font-size: x-large;
+  padding: 5px;
+  background-color: rgb(131, 50, 12);
+  display: flex;
+  justify-content: center;
+}
+.education > span {
+  color: #000;
+  font-weight: 800;
+  font-size: large;
+}
+.education > p {
+  color: white;
+}
+.Certificate {
+  margin-left: 15%;
+}
+.Certificate > ul {
+  color: white;
+}
+.resume-skills {
+  margin-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+.html {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  border: 8px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill1 {
+  width: 8rem;
+  height: auto;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 7%;
+  margin-top: 1rem;
+}
+.resume-prof-skill{
+    
+    text-align: center;
+    
+}
+.resume-prof-skill>h2{
+    color: white;
+    background-color: rgb(131, 50, 12);
+    font-size: xx-large;
+}
+ 
+.html > span {
+  margin-right: 4vh;
+  color: white;
+  font-size: large;
+}
+#skill-head{
+    margin-top: 2rem;
+   color: white;
+   font-size: large;
+}
+.style-skill{
+    display: flex;
+    margin: 5%;
+    justify-content: space-around;
+}
+.soft-skill>span{
+    font-size: x-large;
+    font-weight: 800;
+}
+.soft-skill>ul{
+    color: white;
+}
+.project-container{
+    margin-top: 2vh;
+}
+.project-container>span{
+    color: white;
+    font-size: 6vh;
+    margin: 3rem;
+    background-color: rgb(131, 50, 12);
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4vh;
+}
+.project1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+  padding: 2vh;
+  padding-bottom: 3%;
+  margin-bottom: 2%;
+}
+.project1>img{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 10%;
+}
+ 
+#project-head{
+    color: black;
+    font-size: 3vh;
+    font-weight: 800;
+     
+}
+#project-btn{
+    margin-top: 2vh;
+}
+#project-btn>a{
+    
+    text-decoration: none;
+    margin-top: 20px;
+     padding: 5px 25px 5px 25px;
+        background-color: rgb(19, 37, 75);
+        
+        
+         
+        color: rgb(53, 228, 53);
+        border: 1px solid rgb(74, 206, 74);
+        transition: transform 0.2s;
+    
+    }
+    #project-btn>a:hover {
+      color: white;
+      background-color: green;
+      -ms-transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+     
+    @media screen and (max-width: 1265px){
+        .backgroundcolor{
+            display: none;
+        }
+        .resume-about{
+            display: none;
+        }
+        .resume-details-about{
+            display: block;
+        }
+        .resume-details-about>span{
+            display: block;
+        }
+        .resume-head{
+            width: 40%;
+            border-radius: 5%;
+            background-color: rgb(107, 98, 98);
+            height: auto;
+            box-shadow: 0px 0px 2px 2px gray;
+          
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+            position: none;
+            left: 0vh;
+            z-index: 1;
+        }
+        .eduactionCerti {
+          display: flex;
+          flex-direction: column;
+        }
+
+    }
+
+    @media screen and (max-width: 610px) {
+        .resume-head {
+            width: 60%;
+            border-radius: 5%;
+            background-color: rgb(107, 98, 98);
+            height: auto;
+            box-shadow: 0px 0px 2px 2px gray;
+          
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            padding: 10px;
+             
+        }
+        .resume-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 3%;
+          }
+        .resume-info {
+            display: flex;
+            
+            margin-top: 4%;
+          }
+          .resume-language {
+            margin-left: 5%;
+            margin-top: 2rem;
+            
+
+          }
+
+    }
+    @media screen and (max-width: 300px) {
+        .resume-head {
+            width: 40%;
+            border-radius: 5%;
+            
+             
+        }
+        .resume-education-box{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+        .eduactionCerti {
+          display: flex;
+          flex-direction: column;
+        }
+        .education {
+          display: flex;
+          flex-direction: row;
+          width: 49%;
+          margin-top: 3%;
+        }
+        .Certificate{
+          display: flex;
+           
+        }
+        .resume-info {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          justify-items: center;
+        }
+        .resume-education-box>span{
+          color:white;
+          background-color: rgb(131, 50, 12);
+        padding: 5px;
+         font-weight: 600;
+         display:flex;
+         justify-content:center;
+         text-align: center;
+         align-items: center;
+        }
+       
+      
+    }

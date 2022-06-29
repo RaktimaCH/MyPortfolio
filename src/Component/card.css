@@ -1,0 +1,37 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0px 0px 2px 2px gray;
+  border-radius: 10px;
+}
+
+.card-img {
+  width: 18vh;
+  height: 20vh;
+  transition: transform .2s;
+}
+
+.card-img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+
+}
+@media screen and (max-width: 610px){
+         
+    .card-img {
+        width: 15vh;
+        height: 16vh;
+        transition: transform .2s;
+      }
+      .card-img:hover{
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    
+    
+    }
+}

@@ -1,0 +1,26 @@
+
+.html-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 14, 70);
+  width: 100vw;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+ 
+}
+.img{
+    margin-top: 1rem;
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px black;
+    
+}
