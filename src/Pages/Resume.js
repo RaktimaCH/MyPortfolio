@@ -1,7 +1,10 @@
 import React from "react";
 import "../style/Resume.css";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import resumepdf from "../image/RaktimaChaurasiya.pdf";
+import "react-step-progress-bar/styles.css";
+import { ProgressBar,Step } from "react-step-progress-bar";
+
+import resumepdf from "../image/Resume.pdf";
 import profile from "../image/profile.jfif";
 import linkedin from "../image/linked.png";
 import github from "../image/github.png";
@@ -46,7 +49,7 @@ function Resume() {
 
       <div className="resume-details">
       <div className="resume-details-about">
-          <span>Career Objective</span>
+          <span style={{diplay:"flex",justifyContent:"center",alignItems:"center",textAlign:"center"}}>Career Objective</span>
           <p>
             {" "}
             To Work for an organization which provides me the opportunity to
@@ -113,8 +116,7 @@ function Resume() {
             <p>Relevel by Unacademy - Pursuing</p>
           </div>
           <div className="Certificate">
-            <h2  style={{color: "#000",color:"white", backgroundColor: "rgb(131, 50, 12)",
-  fontWeight: "600",display:"flex",justifyContent:"center"}}>Certificate</h2>
+            <h2 id="eduacted"  >Certificate</h2>
             <ul>
               <li>Personality Devlopment From FEA</li>
               <li>ADCA (Advance Diploma in Computer Application)</li>
@@ -211,6 +213,163 @@ function Resume() {
             <span id="skill-head">BootStrap </span>
           </div>
         </div>
+
+
+
+        <div className="resume-skills-mobile">
+          
+           
+       <div className="skill-top ">
+       <h3 className="text-light">HTML</h3>
+       <h3 className="text-light">CSS</h3>
+       <h3 className="text-light">JavaScript</h3>
+       <h3 className="text-light">React js</h3>
+       <h3 className="text-light">Bootstrap</h3>
+
+       </div>
+      <div className="d-flex flex-column ">
+      <ProgressBar
+        percent={90}
+        filledBackground="green"
+        width="30vh"
+        height="3vh"
+      >
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 90}%)` }}
+              width="30"
+              
+            />
+          )}
+        </Step>
+        
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 70 : 90}%)` }}
+              width="30"
+              src=" https://originalsite.appsposure.com/wp-content/uploads/2016/07/Circle-Logo-no-background-1024x1013.png"
+            />
+          )}
+        </Step>
+      </ProgressBar>
+<br/>
+
+      <ProgressBar
+        percent={80}
+        filledBackground="green"
+        width="30vh"
+        height="3vh"
+      >
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              
+            />
+          )}
+        </Step>
+        
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 70 : 80}%)` }}
+              width="30"
+              src=" https://originalsite.appsposure.com/wp-content/uploads/2016/07/Circle-Logo-no-background-1024x1013.png"
+            />
+          )}
+        </Step>
+      </ProgressBar>
+<br/>
+
+      <ProgressBar
+        percent={70}
+        filledBackground="green"
+        width="30vh"
+        height="3vh"
+      >
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 70}%)` }}
+              width="30"
+              
+            />
+          )}
+        </Step>
+        
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 70 : 70}%)` }}
+              width="30"
+              src=" https://originalsite.appsposure.com/wp-content/uploads/2016/07/Circle-Logo-no-background-1024x1013.png"
+            />
+          )}
+        </Step>
+      </ProgressBar>
+
+<br/>
+
+      <ProgressBar
+        percent={75}
+        filledBackground="green"
+        width="30vh"
+        height="3vh"
+      >
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 75}%)` }}
+              width="30"
+              
+            />
+          )}
+        </Step>
+        
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 70 : 75}%)` }}
+              width="30"
+              src=" https://originalsite.appsposure.com/wp-content/uploads/2016/07/Circle-Logo-no-background-1024x1013.png"
+            />
+          )}
+        </Step>
+      </ProgressBar>
+<br/>
+
+      <ProgressBar
+        percent={80}
+        filledBackground="green"
+        width="30vh"
+        height="3vh"
+      >
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
+              width="30"
+              
+            />
+          )}
+        </Step>
+        
+        <Step transition="scale">
+          {({ accomplished }) => (
+            <img
+              style={{ filter: `grayscale(${accomplished ? 70 : 80}%)` }}
+              width="30"
+              src=" https://originalsite.appsposure.com/wp-content/uploads/2016/07/Circle-Logo-no-background-1024x1013.png"
+            />
+          )}
+        </Step>
+      </ProgressBar>
+      </div>
+       
+        </div>
       </div>
       <div className="style-skill">
         <div className="soft-skill">
@@ -234,9 +393,9 @@ function Resume() {
           </ul>
         </div>
       </div>
-  <div className="project-container container">
+  <div className="project-container">
  <span>Projects</span>
-      <div className="projects container">
+      <div className="projects">
         <div className="project1">
           <img src={toDo} />
           <div className="d-flex flex-column mr-t-5 ">

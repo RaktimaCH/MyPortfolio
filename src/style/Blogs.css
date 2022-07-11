@@ -46,6 +46,12 @@ flex-direction: row;
   transition: ease-in;
   box-shadow: 0px 0px 2px 2px rgb(10, 10, 10);
 }
+.btn-blog > a{
+ 
+  color: white;
+  text-decoration: none;
+
+}
 .blog-nav>button>a{
     text-decoration: none;
     color: white;
@@ -91,9 +97,18 @@ flex-direction: row;
   justify-content: center;
 }
 .blog-img > img {
+  
   margin-top: 10rem;
-  width: 100vh;
-  height: 30vh;
+  width: 90vh;
+  height: 20vh;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 5px black;
+}
+@media  (max-width: 610px){
+
+  .blog-img >img{
+    width: 60vh;
+  height: 20vh;
+  }
+
 }

@@ -134,15 +134,18 @@ body{
         
     }
     .navbar{
-        width: 100vw;
-        position: relative;
-        z-index: 2;
+         
+        
+         
+        
         display: flex;
         flex-direction: column;
         padding-top: 5px;
         border-radius: none;  
+        
     }
     .navbar-logo{
+       
         display: flex;
         justify-content: space-between;
     }
@@ -151,16 +154,28 @@ body{
     }
     .menu{
         display: block;
+        margin-left: 20px;
     }
     .cross{
         display: block;
+        margin-left: 20px;
     }
     .item{
         display: none;
     }
     .view{
         display: block;
+        height: 50vh;
+        
     }
+    
+    #home{
+        font-size:x-large ; 
+       
+        display: flex;
+         
+    }
+   
 }
 @media screen and (min-width: 380px){
     .navbar{

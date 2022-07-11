@@ -46,20 +46,21 @@
   
 }
 .send-btn-btn{
-  background-color: rgb(19, 37, 75);
-  margin-top: 10px ;
+  
+  margin-top: 3rem ;
   padding: 1rem 2rem 1rem 2rem;
    border-radius: 5px;
-   background-color: rgb(4, 4, 82);
-   border: none;
+   background-color: rgb(19, 37, 75);
+   border:  none;
    transition: transform .2s;
    margin-bottom: 1rem;
+   box-shadow: 1px 1px 1px 1px;
    
   }
   .send-btn-btn >a{
     padding: 5px;
     font-size: medium;
-  color: rgb(53, 228, 53);
+  color: white;
   text-decoration: none;
 }
 #contact-info{
@@ -236,15 +237,16 @@ margin-top: 5rem;
      width: 20vh;
      height: 7vh;
     color: rgb(8, 8, 8);
-    border: 1px solid rgb(74, 206, 74);
-    transition: transform .2s;
+    border: none;
+   transition: transform .2s;
+   box-shadow: 1px 1px 1px 1px ;
 }
 .hire-btn>a{
   color: rgb(235, 17, 17);
 }
 .hire-btn:hover{
      
-     background-color: green;
+     background-color:rgb(6, 6, 78);
      -ms-transform: scale(0.9);
      -webkit-transform: scale(0.9);
      transform: scale(0.9);
@@ -277,7 +279,7 @@ margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   text-align: center;
+   margin-top: 6rem;
   }
    
   .container-card {
@@ -308,6 +310,9 @@ margin-top: 5rem;
     width: 20rem;
      
   
+}
+.home-container-card{
+  margin-top: 7rem;
 }
 }
 
