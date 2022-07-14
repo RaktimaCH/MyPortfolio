@@ -4,12 +4,12 @@ body{
     background-color: rgb(19, 37, 75);
 }
 .navbar{
-     z-index: 1;
+    position: sticky;
+    top: 0;
+   
      width: 100%; 
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
     width: 100%;
     margin-top: 0%;
     color: white;
