@@ -410,7 +410,7 @@ function Resume() {
           <img src={calculator}/>
           <span id="project-head">Calculator</span>
           <span id="project-btn">
-            <a href=" https://24fb1u.csb.app/" target="_blank">View</a>
+            <a href="https://24fb1u.csb.app/" target="_blank">View</a>
           </span>
         </div>
         <div className="project1">

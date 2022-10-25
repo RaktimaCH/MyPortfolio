@@ -28,7 +28,8 @@ function Home() {
       
 
        <button className="hire-btn">
-       <a style={{textDecoration:"none"}} href="mailto:raktimachaurasiya@gmail.com"> HIRE ME!</a>
+       {/* <a style={{textDecoration:"none"}} href="mailto:raktimachaurasiya@gmail.com"> HIRE ME!</a> */}
+       <a style={{textDecoration:"none"}} href="https://reactnative.dev/docs/accessibilityinfo"> HIRE ME!</a>
         </button>
        
      
