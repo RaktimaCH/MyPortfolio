@@ -278,10 +278,8 @@
 .soft-skill>ul{
     color: white;
 }
-.project-container{
-    margin-top: 2vh;
-}
-.project-container>span{
+ 
+.project{
     color: white;
     font-size: 6vh;
     margin: 3rem;

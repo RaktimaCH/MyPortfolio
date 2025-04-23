@@ -1,71 +1,77 @@
-html {
-}
-.container {
-}
+html {}
+
+.container {}
+
 .blog-container {
   background-color: rgb(19, 37, 75);
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .blog-nav {
   width: auto;
   height: auto;
 
   display: flex;
-flex-direction: row;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 
   border-radius: 3px;
   margin-top: 8rem;
 }
-.blog-nav>button{
-    padding: 4rem 4rem 4rem 4rem;
-    margin: 1rem;
-     background-image: url("https://img.freepik.com/free-vector/square-neon-background_1189-1013.jpg");
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
-    font-size: 1.7rem;
- 
-    border-radius: 5px;
-    transition: ease-in;
-    box-shadow: 0px 0px 2px 2px rgb(10, 10, 10);
-}
-.btn-blog{
+
+.blog-nav>button {
   padding: 4rem 4rem 4rem 4rem;
   margin: 1rem;
-   background-image: url("https://img.freepik.com/free-vector/square-neon-background_1189-1013.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
+  background-image: url("https://img.freepik.com/free-vector/square-neon-background_1189-1013.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   font-size: 1.7rem;
 
   border-radius: 5px;
   transition: ease-in;
   box-shadow: 0px 0px 2px 2px rgb(10, 10, 10);
 }
-.btn-blog > a{
- 
+
+.btn-blog {
+  padding: 4rem 4rem 4rem 4rem;
+  margin: 1rem;
+  background-image: url("https://img.freepik.com/free-vector/square-neon-background_1189-1013.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 1.7rem;
+
+  border-radius: 5px;
+  transition: ease-in;
+  box-shadow: 0px 0px 2px 2px rgb(10, 10, 10);
+}
+
+.btn-blog>a {
+
   color: white;
   text-decoration: none;
 
 }
-.blog-nav>button>a{
-    text-decoration: none;
-    color: white;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.blog-nav>button>a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.blog-nav>button:hover{
-    background-color: #281561;
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+.blog-nav>button:hover {
+  background-color: #281561;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
- 
+
 #java {
   width: auto;
   height: auto;
@@ -82,33 +88,38 @@ flex-direction: row;
   font-weight: 700;
   transition: transform 0.2s;
 }
-#java > a {
+
+#java>a {
   text-decoration: none;
   /* color: green; */
 }
+
 #java:hover {
   background-color: cadetblue;
   -ms-transform: scale(1.5);
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
+
 .blog-img {
   display: flex;
   justify-content: center;
 }
-.blog-img > img {
-  
-  margin-top: 10rem;
-  width: 90vh;
+
+.blog-img>img {
+
+  margin-top: 5rem;
+  width: 80vh;
   height: 20vh;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 5px black;
 }
-@media  (max-width: 610px){
 
-  .blog-img >img{
+@media (max-width: 610px) {
+
+  .blog-img>img {
     width: 60vh;
-  height: 20vh;
+    height: 20vh;
   }
 
 }

@@ -46,6 +46,7 @@ function MyPortfolio() {
             {menu ? (
               <div>
                 <img
+                alt="img"
                   className="cross"
                   onClick={menuHandle}
                   src="https://www.shareicon.net/data/2015/08/15/85452_multiply_512x512.png"
@@ -54,6 +55,7 @@ function MyPortfolio() {
             ) : (
               <div>
                 <img
+                alt="img"
                   onClick={menuHandle}
                   className="menu"
                   src="https://vectorified.com/images/3-line-menu-icon-3.png"
@@ -90,7 +92,7 @@ function MyPortfolio() {
 
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="about" element={<Projects />} />
+          <Route exact path="/projects" element={<Projects />} />
           <Route exact path="blogs" element={<Blogs />} />
           <Route exact path="resume" element={<Resume />} />
           <Route exact path="/html" element={<Html/>}/>
